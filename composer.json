@@ -1,0 +1,24 @@
+{
+  "name": "kynetiv/bedroot",
+  "type": "project",
+  "license": "MIT",
+  "description": "A bastardized WordPress stack",
+  "config": {
+    "preferred-install": "dist"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "composer/installers": "~1.0.12",
+    "vlucas/phpdotenv": "~2.0.1",
+    "johnpbloch/wordpress": "4.3"
+  },
+  "extra": {
+    "wordpress-install-dir": "web/"
+  }
+}
